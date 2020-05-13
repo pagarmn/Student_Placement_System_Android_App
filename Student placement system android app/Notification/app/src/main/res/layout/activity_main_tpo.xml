@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#01315a"
+    android:orientation="vertical"
+
+    android:paddingTop="200dp"
+    android:layout_gravity="center"
+    >
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Company"
+        android:layout_gravity="center"
+        android:id="@+id/add_comp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notify "
+        android:layout_gravity="center"
+        android:id="@+id/not"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Previous papers"
+        android:layout_gravity="center"
+        android:id="@+id/add_pp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Selected Students"
+        android:layout_gravity="center"
+        android:id="@+id/add_ss"
+        />
+
+
+</LinearLayout>
